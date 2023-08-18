@@ -1,0 +1,45 @@
+body { 
+  background-color: #444; 
+  font-family: Roboto;
+  text-align: center;
+  color: white;
+}
+
+#game {
+  width: 880px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#game div {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  background-color: rgb(240, 255, 255);
+  box-shadow: .5rem .5rem 1rem rgba(0,0,0,0.15);
+  position: relative;
+  border-radius: .25rem;
+  transition: color .5s;
+  text-align: center;
+  line-height: 200px;
+  color: white;
+  font-weight: bold;
+}
+
+#game div:hover {
+  outline: 4px solid rgb(191, 227, 227);
+  box-shadow: 1rem 1rem 2rem rgba(0,0,0,0.15);
+  top: -.2rem;
+  left: -.2rem;
+}
+
+#game .red { background-color: red; }
+#game .blue { background-color: blue; }
+#game .green { background-color: green; }
+#game .orange { background-color: orange; }
+#game .purple { background-color: purple; }
+#game .teal { background-color: teal; }
+#game .lime { background-color: lime; }
+#game .yellow { background-color: yellow; }
+
